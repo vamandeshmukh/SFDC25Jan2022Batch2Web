@@ -8,17 +8,22 @@
             color: blueviolet;
         }
     </style>
+        <!-- external CSS with a separate css file and class attribute for the element  -->
+        <link rel="stylesheet" href="styles.css" >
 </head>
 
 <body>
     <h1>Using CSS in HTML</h1>
-    <!-- inline CSS with style attribute  -->
+    <!-- 1. inline CSS with style attribute  -->
     <p style="color: blue;">This paragraph has been styled with inline CSS.</p>
 
-    <!-- internal CSS with style element  in head  -->
+    <!-- 2. internal CSS with style element  in head and class attribute for the element  -->
     <p class="my-style">This paragraph has been styled with internal CSS.</p>
-    <p>This paragraph has been styled with external CSS.</p>
+    <p class="my-style">This paragraph has been styled with internal CSS.</p>
+    <p class="my-style">This paragraph has been styled with internal CSS.</p>
 
+    <!-- 3. external CSS with a separate css file and class attribute for the element  -->
+    <p class="my-style2" >This paragraph has been styled with external CSS.</p>
 </body>
 
 </html>
