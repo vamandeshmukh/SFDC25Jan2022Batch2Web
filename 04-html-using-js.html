@@ -2,11 +2,15 @@
 <html>
 
 <head>
+    <!-- 2. Internal JS  -->
     <script>
         function fun() {
             alert('You clicked here!');
         }
     </script>
+    <!-- 3. External JS  -->
+    <script src="./script.js"></script>
+
 </head>
 
 <body>
@@ -14,10 +18,11 @@
     <p>JavaScript is used to add behaviour / logic in HTML.</p>
     <!-- 1. Inline JS  -->
     <button onclick="alert('You clicked!');">Click here</button>
-    <br />
-    <br />
+    <br /> <br />
     <!-- 2. Internal JS  -->
     <button onclick="fun()">Click here also</button>
+    <br /> <br />
+    <button onclick="fun2()">Click here also 2</button>
 </body>
 
 </html>
