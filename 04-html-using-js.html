@@ -2,15 +2,22 @@
 <html>
 
 <head>
-
+    <script>
+        function fun() {
+            alert('You clicked here!');
+        }
+    </script>
 </head>
 
 <body>
     <h1>Using JS in HTML</h1>
     <p>JavaScript is used to add behaviour / logic in HTML.</p>
-    <!-- Inline JS  -->
+    <!-- 1. Inline JS  -->
     <button onclick="alert('You clicked!');">Click here</button>
-
+    <br />
+    <br />
+    <!-- 2. Internal JS  -->
+    <button onclick="fun()">Click here also</button>
 </body>
 
 </html>
