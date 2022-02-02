@@ -1,4 +1,16 @@
 
 .my-style2 {
     color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-style3 {
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.another-style {
+    border: 1px;
+    border-style: dashed;
 }
