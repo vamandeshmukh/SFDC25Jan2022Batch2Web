@@ -74,4 +74,18 @@ const funAsArg = () => {
     console.log('funAsArg invoked.')
 }
 
-fun5(funAsArg);
+fun5(funAsArg); // function call 
+
+
+
+const addNums = (a, b) => {
+console.log(a + b);
+}
+
+let x = 10;
+let y = 10;
+
+addNums(x, y);
+
+
+
