@@ -43,7 +43,7 @@ const num5 = 50; // value can not change
 console.log(num4);
 console.log(num5);
 num4 = 45;
-num5 = 55;
+// num5 = 55; // error 
 console.log(num4);
 console.log(num5);
 
