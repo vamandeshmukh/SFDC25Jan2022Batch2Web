@@ -40,6 +40,7 @@ const someFunction = (argumentThatNeedsFunction) => {
 const functionThatIspassedAsArgument = () => {
     console.log("statement 3");
 }
+
 someFunction(functionThatIspassedAsArgument);
 
 // OP: 1 2 3   
