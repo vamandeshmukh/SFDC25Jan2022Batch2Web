@@ -12,7 +12,9 @@ const funAsArg = () => {
 // invoke a function - 1
 fun5(funAsArg); // function call 
 // invoke a function - 2
-fun5(() => {console.log('anonymous function invoked.');});
+fun5(() => {
+    console.log('anonymous function invoked.');
+});
 
 // define a funciton 
 const addNums = (a, b) => {
