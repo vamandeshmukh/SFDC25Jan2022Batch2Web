@@ -1,4 +1,20 @@
 
+
+// // Java - 
+// int  num = 10;
+
+// // JavaScript 
+// let num = 10;
+// let num = 10 
+
+// // TypeScript 
+// let num: number = 10;
+// let num: number = 10 
+
+
+
+
+
 // json object 
 
 
