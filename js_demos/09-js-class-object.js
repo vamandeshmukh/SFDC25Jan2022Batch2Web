@@ -7,7 +7,6 @@
 
 num = 10;
 
-
 class Employee {
     eid;
     firstName;
@@ -38,8 +37,10 @@ class Product {
         this.productName = productName;
         this.price = price;
     }
+
 }
 
 let myProduct = new Product(1001, 'laptop', 10.5);
 console.log(myProduct);
 myProduct.sellProduct();
+
